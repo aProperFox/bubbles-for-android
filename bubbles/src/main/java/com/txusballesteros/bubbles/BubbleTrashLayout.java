@@ -66,7 +66,6 @@ class BubbleTrashLayout extends BubbleBaseLayout {
         if (visibility == VISIBLE) {
           playAnimation(R.animator.bubble_trash_shown_animator);
 
-
         } else {
           playAnimation(R.animator.bubble_trash_hide_animator);
         }
